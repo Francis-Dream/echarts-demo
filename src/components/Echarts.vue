@@ -158,8 +158,10 @@ export default {
       chart(){
         let myChart = echarts.init(document.getElementById('chart'));
         // 基于准备好的dom，初始化echarts实例
-        
-        // 绘制图表配置
+        // 
+        // 
+        // 绘制图表配置......
+
         myChart.setOption({
           tooltip: {
             trigger: 'item'
